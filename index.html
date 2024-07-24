@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Task</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="container">
+    <div class="header">
+      <div class="close-btn">
+        <a href="#">
+          <img src="./public/cross.png" alt="close">
+        </a>
+      </div>
+    </div>
+    <div class="content">
+      <h1 class="title" id="title"></h1>
+      <div class="features">
+        <div class="feature">
+          <img src="./public/1.png" alt="img1">
+          <div class="feature-text" id="feature1"></div>
+        </div>
+        <div class="feature">
+          <img src="./public/2.png" alt="img2">
+          <div class="feature-text" id="feature2"></div>
+        </div>
+        <div class="feature">
+          <img src="./public/3.png" alt="img3">
+          <div class="feature-text" id="feature3"></div>
+        </div>
+      </div>
+      <div class="pricing">
+        <div class="pricing-option yearly" id="yearly" data-url="https://apple.com/">
+          <div class="pricing-option-text">
+            <span class="price-access" id="price-yearly"></span>
+            <span class="price"></span>
+          </div>
+          <div class="price-access" id="price-week">
+            <span class="price"></span>
+          </div>
+          <div class="best-offer" id="bestOffer"></div>
+        </div>
+        <div class="pricing-option weekly" id="weekly" data-url="https://google.com/">
+          <span class="price-access" id="price-weekly"></span>
+          <span class="price"></span>
+        </div>
+      </div>
+      <button class="continue-btn" id="continue"></button>
+    </div>
+    <div class="footer">
+      <a href="#" class="footer-link" id="terms"></a>
+      <a href="#" class="footer-link" id="privacy"></a>
+      <a href="#" class="footer-link" id="restore"></a>
+    </div>
+  </div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
